@@ -1,0 +1,12 @@
+ Header : c++ , Marks: 10 points  
+int is value type?
+True
+False
+
+======================
+ Header : c++ , Marks: 10 points  
+int is value type?
+True
+False
+
+======================
