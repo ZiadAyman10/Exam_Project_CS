@@ -30,35 +30,24 @@ namespace Exam_Project.Exam_model
 
         #region ctor
 
-        protected Exam(int time, int numberOfQuestions, Question[] _questions,
-                        Dictionary<Question, Answer> questionAnswerDictionary, Subject subject, ExamMode mode)
+        protected Exam(int time, int numberOfQuestions, Question[] _questions, Subject subject, ExamMode mode=ExamMode.Queued)
         {
             Time = time;
             NumberOfQuestions = numberOfQuestions;
             questions = _questions;
-            QuestionAnswerDictionary = questionAnswerDictionary;
+           
             Subject = subject;
             Mode = mode;
-            if (questions is  null || QuestionAnswerDictionary is  null) throw new Exception("Invalid arguments to initialize Exam");
+            if (questions is null) throw new Exception("Invalid arguments to initialize Exam");
 
-            if (questions is not null && QuestionAnswerDictionary is not null)
+            Dictionary<Question, Answer> dictionary = new Dictionary<Question, Answer>();
+            foreach (var question in questions)
             {
-                if (questions.Length != questionAnswerDictionary.Count|| questions.Length!=numberOfQuestions) throw new Exception("Invalid arguments to initialize Exam");
-                Answer test;
-                try
-                {
-                    foreach (Question question in questions)
-                    {
-                        test = questionAnswerDictionary[question];
-
-                    }
-                }
-                catch (Exception)
-                {
-
-                    throw new Exception("Invalid arguments to initialize Exam");
-                }
+                if(question is null ) throw new Exception("Invalid arguments to initialize Exam");
+                dictionary[question] = null;
             }
+            QuestionAnswerDictionary = dictionary;
+
         }
         #endregion
 
@@ -80,12 +69,12 @@ namespace Exam_Project.Exam_model
         public abstract void ShowExam();
         public virtual void Start()
         {
-            if(Mode==ExamMode.Starting)
-            this.Mode = ExamMode.Queued;
+            if(Mode==ExamMode.Queued)
+            this.Mode = ExamMode.Starting;
         }
         public virtual void Finish()
         {
-            if (Mode != ExamMode.Finished)
+            if (Mode == ExamMode.Starting)
                 this.Mode = ExamMode.Finished;
         }
 

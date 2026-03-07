@@ -43,7 +43,7 @@ namespace Exam_Project.Answer_Model
         }
         public override string ToString()
         {
-            return $"Id:{this.Id} , Text:{this.Text}";
+            return $"Answer is :{this.Text}";
         }
 
         public int CompareTo(Answer? other)

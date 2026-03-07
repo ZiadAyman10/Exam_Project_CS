@@ -52,17 +52,24 @@ namespace Testing
                 new ChooseOneQuestion("Answer the following question", "2 + 1 =", 1, ls, new(3, "3")),
                 new TrueFalseQuestion("Answer the following question", "3 - 2 ==1", 3, new(1, EAnswers.True.ToString()))
             };
+
             Dictionary<Question, Answer> dictionary = new Dictionary<Question, Answer>();
             foreach (var question in questions)
             {
-                dictionary[question] = question.CorrectAnswer;
+                dictionary[question] = null;
             }
 
-            PracticeExam practiceExam = new PracticeExam(40, 3, questions, dictionary, math, ExamMode.Starting);
-            FinalExam final = new FinalExam(40, 3, questions, dictionary, math, ExamMode.Starting);
+            //PracticeExam practiceExam = new PracticeExam(40, 3, questions, dictionary, math);
 
-            practiceExam.ShowExam();
-            final.ShowExam();
+
+            //practiceExam.Start();
+
+
+
+            FinalExam final = new FinalExam(40, 3, questions, dictionary, math, ExamMode.Starting);
+            final.Start();
+
+
         }
     }
 }
