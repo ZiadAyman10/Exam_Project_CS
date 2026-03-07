@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\ITI\\C#\\Exam_Project_CS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A0C4A89-FCAF-2464-F95B-CBA540587E36}|Exam_Project\\Exam_Project.csproj|d:\\iti\\c#\\exam_project_cs\\exam_project\\answer_model\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A0C4A89-FCAF-2464-F95B-CBA540587E36}|Exam_Project\\Exam_Project.csproj|solutionrelative:exam_project\\answer_model\\answer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33544DFA-E679-B406-8ABE-B57F0E990966}|Testing\\Testing.csproj|d:\\iti\\c#\\exam_project_cs\\testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33544DFA-E679-B406-8ABE-B57F0E990966}|Testing\\Testing.csproj|solutionrelative:testing\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "Answer.cs",
+              "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Answer_Model\\Answer.cs",
+              "RelativeDocumentMoniker": "Exam_Project\\Answer_Model\\Answer.cs",
+              "ToolTip": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Answer_Model\\Answer.cs",
+              "RelativeToolTip": "Exam_Project\\Answer_Model\\Answer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-07T23:23:29.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "AnswerList.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Answer_Model\\AnswerList.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Answer_Model\\AnswerList.cs",
@@ -102,12 +119,11 @@
               "RelativeToolTip": "Exam_Project\\Answer_Model\\AnswerList.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:54:46.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T22:54:46.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ChooseAllQuestion.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Questions\\ChooseAllQuestion.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Questions\\ChooseAllQuestion.cs",
@@ -115,25 +131,24 @@
               "RelativeToolTip": "Exam_Project\\Questions\\ChooseAllQuestion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:49:58.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T22:49:58.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Testing\\Program.cs",
               "RelativeDocumentMoniker": "Testing\\Program.cs",
               "ToolTip": "D:\\ITI\\C#\\Exam_Project_CS\\Testing\\Program.cs",
               "RelativeToolTip": "Testing\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAQwEIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-05T22:06:43.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PracticeExam.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Exam_model\\PracticeExam.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Exam_model\\PracticeExam.cs",
@@ -141,12 +156,11 @@
               "RelativeToolTip": "Exam_Project\\Exam_model\\PracticeExam.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:38:56.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T22:38:56.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Question.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Questions\\Question.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Questions\\Question.cs",
@@ -154,12 +168,11 @@
               "RelativeToolTip": "Exam_Project\\Questions\\Question.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAAACAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:23:06.563Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T22:23:06.563Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Exam.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Exam_model\\Exam.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Exam_model\\Exam.cs",
@@ -167,12 +180,11 @@
               "RelativeToolTip": "Exam_Project\\Exam_model\\Exam.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:13:15.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T22:13:15.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Student.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Exam_model\\Student.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Exam_model\\Student.cs",
@@ -180,12 +192,11 @@
               "RelativeToolTip": "Exam_Project\\Exam_model\\Student.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T22:10:03.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T22:10:03.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FinalExam.cs",
               "DocumentMoniker": "D:\\ITI\\C#\\Exam_Project_CS\\Exam_Project\\Exam_model\\FinalExam.cs",
               "RelativeDocumentMoniker": "Exam_Project\\Exam_model\\FinalExam.cs",
@@ -193,8 +204,7 @@
               "RelativeToolTip": "Exam_Project\\Exam_model\\FinalExam.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAUwBYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-05T21:22:09.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-05T21:22:09.584Z"
             }
           ]
         }
