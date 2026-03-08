@@ -96,6 +96,7 @@ namespace Exam_Project.Exam_model
         public override void Start()
         {
             base.Start();
+            TriggerEvent();
             ShowExam();
             string answer;
             bool flag = false;

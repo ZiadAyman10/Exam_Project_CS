@@ -9,11 +9,12 @@ namespace Exam_Project.Exam_model
         public string Name { get; set; }
 
         List <Student>  enrolledStudents;
-
+  
         public Subject(string name, List<Student> enrolledStudents)
         {
             Name = name;
             this.enrolledStudents = enrolledStudents;
+
         }
 
         public List<Student> EnrolledStudents { get { return enrolledStudents; }  }
@@ -45,6 +46,11 @@ namespace Exam_Project.Exam_model
             }
             return false;
         }
-        
+
+        public void HandleEvent(object sender, EventArgs e)
+        {
+            Console.WriteLine("Enter the Exam");
+        }   
+
     }
 }

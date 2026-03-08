@@ -8,8 +8,7 @@ namespace Exam_Project.Exam_model
 {
     public class FinalExam : Exam
     {
-        public FinalExam(int time, int numberOfQuestions, Question[] _questions,
-                        Dictionary<Question, Answer> questionAnswerDictionary, Subject subject, ExamMode mode = ExamMode.Queued)
+        public FinalExam(int time, int numberOfQuestions, Question[] _questions, Subject subject, ExamMode mode = ExamMode.Queued)
             : base(time, numberOfQuestions, _questions, subject, mode)
         {
 
@@ -45,6 +44,7 @@ namespace Exam_Project.Exam_model
         public override void Start()
         {
             base.Start();
+            TriggerEvent();
             ShowExam();
             string answer;
             bool flag = false;

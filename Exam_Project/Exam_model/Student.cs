@@ -24,5 +24,13 @@
         {
             return $"id : {this.id}, Name: {this.name}";
         }
+
+        public void HandleExamStart(object sender, EventArgs e)
+        {
+            if (sender is Exam exam)
+            {
+                Console.WriteLine($"{Name} entered the exam of {exam.Subject.Name}");
+            }
+        }
     }
 }

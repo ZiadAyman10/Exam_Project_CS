@@ -34,10 +34,10 @@ namespace Testing
 
             math.Enroll(new("khaled", 4));
 
-            foreach (var st in math.EnrolledStudents)
-            {
-                Console.WriteLine(st);
-            }
+            //foreach (var st in math.EnrolledStudents)
+            //{
+            //    Console.WriteLine(st);
+            //}
             #endregion
             AnswerList ls = new AnswerList(
              new List<Answer>(){
@@ -53,20 +53,24 @@ namespace Testing
                 new TrueFalseQuestion("Answer the following question", "3 - 2 ==1", 3, new(1, EAnswers.True.ToString()))
             };
 
-            Dictionary<Question, Answer> dictionary = new Dictionary<Question, Answer>();
-            foreach (var question in questions)
+
+
+            PracticeExam practiceExam = new PracticeExam(40, 3, questions,  math);
+
+            foreach (var student in practiceExam.Subject.EnrolledStudents)
             {
-                dictionary[question] = null;
+                practiceExam.Notification += student.HandleExamStart;
             }
 
-            //PracticeExam practiceExam = new PracticeExam(40, 3, questions, dictionary, math);
-
-
-            //practiceExam.Start();
+            practiceExam.Start();
 
 
 
-            FinalExam final = new FinalExam(40, 3, questions, dictionary, math, ExamMode.Starting);
+            FinalExam final = new FinalExam(40, 3, questions, math);
+            foreach (var student in final.Subject.EnrolledStudents)
+            {
+                final.Notification += student.HandleExamStart;
+            }
             final.Start();
 
 

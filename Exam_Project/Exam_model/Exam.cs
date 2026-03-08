@@ -11,8 +11,17 @@ namespace Exam_Project.Exam_model
     {
         Starting, Queued, Finished
     }
+
+    public delegate void Notify(string message);
     public abstract class Exam :ICloneable , IComparable<Exam>
     {
+
+        public event EventHandler Notification;
+
+        public void TriggerEvent()
+        {
+            Notification?.Invoke(this, EventArgs.Empty);
+        }
 
         #region prop
         public int Time { get; set; }
@@ -48,6 +57,7 @@ namespace Exam_Project.Exam_model
             }
             QuestionAnswerDictionary = dictionary;
 
+            
         }
         #endregion
 
